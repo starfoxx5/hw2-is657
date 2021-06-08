@@ -5,7 +5,7 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: "column",
     backgroundColor: "ghostwhite",
-    alignItems: "center",
+    alignItems: "flex-start",
     justifyContent: "space-around",
     borderStyle: "dashed",
     borderColor: "blue",
@@ -13,26 +13,6 @@ export default StyleSheet.create({
       ios: { paddingTop: 20 },
       android: { paddingTop: StatusBar.currentHeight },
     }),
-  },
-
-  container1: {
-    flex: 1,
-    flexDirection: "column",
-    backgroundColor: "lightblue",
-    alignItems: "flexstart",
-    borderstyle: "dashed",
-    borderColor: "blue",
-  },
-
-  container2: {
-    flex: 1,
-    flexDirection: "row",
-    backgroundColor: "lavender",
-    borderstyle: "dashed",
-    borderColor: "blue",
-    height: 100,
-    width: 600,
-    justifyContent: "space-around",
   },
 
   box: {
@@ -48,14 +28,15 @@ export default StyleSheet.create({
 
   box1: {
     backgroundColor: "yellow",
-    height: 300,
-    width: 300,
+    height: 400,
+    width: 200,
     borderStyle: "solid",
     borderColor: "black",
     borderWidth: 2,
     flex: 1,
     flexDirection: "column",
     alignItems: "flex-start",
+    justifyContent: "flex-between",
   },
 
   box2: {
@@ -65,7 +46,7 @@ export default StyleSheet.create({
     borderStyle: "solid",
     borderColor: "black",
     borderWidth: 2,
-    flex: 1,
+    // flex: 1,
     flexDirection: "row",
     alignItems: "flex-start",
   },
@@ -73,13 +54,13 @@ export default StyleSheet.create({
   box3: {
     backgroundColor: "lavender",
     height: 400,
-    width: 450,
+    width: 430,
     borderStyle: "solid",
     borderColor: "black",
     borderWidth: 2,
-    flex: 1,
+    // flex: 1,
     flexDirection: "column",
-    alignItems: "center",
+    alignItems: "flex-start",
     justifyContent: "space-between",
   },
 

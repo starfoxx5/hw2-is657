@@ -17,16 +17,15 @@ export default function App() {
           <Box>Child</Box>
         </Column>
       </View>
-      <View style={styles.box2}>
-        {/* <Row>
-          <Text style={styles.boxText}>Row</Text>
-        </Row> */}
+      <View style={(styles.container, styles.box2)}>
         <Row>
           <Column>
-            <Text style={styles.boxText}>Row</Text>
+            <Text style={(styles.container, styles.boxText)}>Row</Text>
             <Box>Child</Box>
           </Column>
           <Column>
+            <Text></Text>
+            <Text></Text>
             <Box>Child</Box>
           </Column>
           <Column>
